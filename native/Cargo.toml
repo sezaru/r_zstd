@@ -1,0 +1,16 @@
+[package]
+name = "r_zstd_nif"
+version = "0.1.0"
+authors = ["Eduardo Barreto Alexandre <sezdocs@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "r_zstd_nif"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.21"
+rustler_codegen = "0.21"
+zstd = "0.5"
+zstd-safe = "2.0.5"

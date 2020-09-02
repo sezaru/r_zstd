@@ -1,0 +1,10 @@
+{
+    "coverage_options": {
+        "treat_no_relevant_lines_as_covered": true
+    },
+    "skip_files": [
+        "lib/r_zstd/exception.ex",
+        "lib/r_zstd/handler.ex",
+        "lib/r_zstd/native.ex"
+    ]
+}
