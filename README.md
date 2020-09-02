@@ -2,7 +2,7 @@
 
 [![Hex.pm Version](http://img.shields.io/hexpm/v/r_zstd.svg)](https://hex.pm/packages/r_zstd)
 [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/r_zstd)
-[![Coverage Status](https://coveralls.io/repos/github/sezaru/r_zstd/badge.svg?branch=master)](https://coveralls.io/github/sezaru/r_zstd?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/sezaru/rzstd/badge.svg?branch=master)](https://coveralls.io/github/sezaru/rzstd?branch=master)
 [![Hex.pm](https://img.shields.io/hexpm/dt/r_zstd.svg)](https://hex.pm/packages/r_zstd)
 
 **RZstd is a Rust based bindings to zstd library**
