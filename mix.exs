@@ -4,7 +4,7 @@ defmodule RZstd.MixProject do
   @app :r_zstd
   @name "RZstd"
   @description "Rust powered NIF bindings to Facebook's Zstd library"
-  @version "1.1.0"
+  @version "1.1.0-rc.1"
   @github "https://github.com/sezaru/#{@app}"
   @author "Eduardo Barreto Alexandre"
   @license "MIT"
