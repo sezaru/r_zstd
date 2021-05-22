@@ -21,7 +21,7 @@ defmodule RZstd.MixProject do
       package: package(),
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
-      compilers: [:rustler] ++ Mix.compilers(),
+      compilers: Mix.compilers(),
       rustler_crates: rustler_crates(),
       elixirc_paths: elixirc_paths(Mix.env()),
       test_coverage: [tool: ExCoveralls],
@@ -36,7 +36,7 @@ defmodule RZstd.MixProject do
     [
       {:benchee, "~> 1.0", only: :dev},
       {:unsafe, "~> 1.0", runtime: false},
-      {:rustler, "~> 0.21"},
+      {:rustler, "~> 0.22.0-rc.1"},
       {:ex_doc, "~> 0.22.1", only: [:dev, :docs], runtime: false},
       {:excoveralls, "~> 0.13", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},

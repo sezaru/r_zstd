@@ -31,7 +31,7 @@ defmodule Test.RZstdTest do
     assert RZstd.decompress!(compressed_data) == @data
   end
 
-  test "decompress/1 decompress some data" do
+  test "decompress/2 decompress some data" do
     {:ok, compressed_data} = RZstd.compress(@data, 1)
 
     assert RZstd.decompress(compressed_data) == {:ok, @data}

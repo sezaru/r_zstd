@@ -10,7 +10,6 @@ path = "src/lib.rs"
 crate-type = ["dylib"]
 
 [dependencies]
-rustler = "0.21"
-rustler_codegen = "0.21"
-zstd = "0.5"
-zstd-safe = "2.0.5"
+rustler = "0.22.0-rc.1"
+zstd = "0.8"
+zstd-safe = "4.1"
