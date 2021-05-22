@@ -4,7 +4,7 @@ defmodule RZstd.MixProject do
   @app :r_zstd
   @name "RZstd"
   @description "Rust powered NIF bindings to Facebook's Zstd library"
-  @version "1.1.0-rc.1"
+  @version "1.1.0-rc.2"
   @github "https://github.com/sezaru/#{@app}"
   @author "Eduardo Barreto Alexandre"
   @license "MIT"
@@ -37,7 +37,7 @@ defmodule RZstd.MixProject do
       {:benchee, "~> 1.0", only: :dev},
       {:unsafe, "~> 1.0", runtime: false},
       {:rustler, "~> 0.22.0-rc.1"},
-      {:ex_doc, "~> 0.22.1", only: [:dev, :docs], runtime: false},
+      {:ex_doc, "~> 0.24.2", only: [:dev, :docs], runtime: false},
       {:excoveralls, "~> 0.13", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
