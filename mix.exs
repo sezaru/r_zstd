@@ -19,7 +19,8 @@ defmodule RZstd.MixProject do
       deps: deps(),
       docs: docs(),
       package: package(),
-      build_embedded: Mix.env() == :prod,
+      # TODO Revert this after Rustler resolves so missing bug (issue 326)
+      build_embedded: false,
       start_permanent: Mix.env() == :prod,
       compilers: Mix.compilers(),
       rustler_crates: rustler_crates(),
