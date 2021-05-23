@@ -61,7 +61,7 @@ defmodule RZstd.MixProject do
       name: @app,
       maintainers: [@author],
       licenses: [@license],
-      files: ~w(mix.exs lib README.md native/Cargo.* native/src),
+      files: ~w(mix.exs lib README.md native/Cargo.* native/src priv),
       links: %{"Github" => @github}
     ]
   end
